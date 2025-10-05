@@ -5,12 +5,16 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
+=======
+>>>>>>> 61a8fe5 (uploaded)
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:jaladhi/main.dart';
 
 void main() {
+<<<<<<< HEAD
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MyApp());
@@ -26,5 +30,19 @@ void main() {
     // Verify that our counter has incremented.
     expect(find.text('0'), findsNothing);
     expect(find.text('1'), findsOneWidget);
+=======
+  testWidgets('Dashboard screen loads correctly', (WidgetTester tester) async {
+    // Build our app and trigger a frame.
+    await tester.pumpWidget(const JaladhiApp());
+
+    // Verify that our app loads the dashboard.
+    expect(find.text('Jaladhi Dashboard'), findsOneWidget);
+
+    // Wait for any async operations to complete.
+    await tester.pumpAndSettle();
+
+    // Verify that the summary section is present.
+    expect(find.text('Summary'), findsOneWidget);
+>>>>>>> 61a8fe5 (uploaded)
   });
 }

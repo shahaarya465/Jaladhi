@@ -27,11 +27,18 @@ migrate_working_dir/
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
+<<<<<<< HEAD
 .flutter-plugins
+=======
+>>>>>>> 61a8fe5 (uploaded)
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
 /build/
+<<<<<<< HEAD
+=======
+/coverage/
+>>>>>>> 61a8fe5 (uploaded)
 
 # Symbolication related
 app.*.symbols

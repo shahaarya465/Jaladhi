@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 
 void main() {
   runApp(const MyApp());
@@ -117,6 +118,37 @@ class _MyHomePageState extends State<MyHomePage> {
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
+=======
+import 'package:provider/provider.dart';
+import 'screens/data/dashboard_screen.dart';
+import 'providers/dwlr_provider.dart';
+
+void main() {
+  runApp(const JaladhiApp());
+}
+
+class JaladhiApp extends StatelessWidget {
+  const JaladhiApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => DwlrProvider()),
+      ],
+      child: MaterialApp(
+        title: 'Jaladhi - Groundwater Monitoring',
+        theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(
+            seedColor: Colors.blue,
+            brightness: Brightness.light,
+          ),
+          useMaterial3: true,
+        ),
+        home: const DashboardScreen(),
+        debugShowCheckedModeBanner: false,
+      ),
+>>>>>>> 61a8fe5 (uploaded)
     );
   }
 }
