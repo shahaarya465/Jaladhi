@@ -1,0 +1,6 @@
+id,location,latitude,longitude,water_level,timestamp,well_type,depth,aquifer_type,temperature,ph,conductivity
+DWLR001,Ahmedabad CGWB Station,23.0225,72.5714,12.5,2025-09-30T10:30:00Z,Bore Well,45.0,Alluvial,28.5,7.2,850
+DWLR002,Rajkot CGWB Station,22.3039,70.8022,8.3,2025-09-30T09:15:00Z,Open Well,35.0,Basaltic,29.1,6.8,920
+DWLR003,Gandhinagar CGWB Station,23.2156,72.6369,15.7,2025-09-30T11:45:00Z,Tube Well,60.0,Sedimentary,27.8,7.5,780
+DWLR004,Vadodara CGWB Station,22.3072,73.1812,11.2,2025-09-30T08:30:00Z,Bore Well,50.0,Alluvial,30.2,7.0,890
+DWLR005,Surat CGWB Station,21.1702,72.8311,6.8,2025-09-30T12:00:00Z,Open Well,28.0,Coastal,31.5,6.5,1200
